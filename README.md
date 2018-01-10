@@ -2,7 +2,8 @@
 
 ## About
 This repository uses code and model by
-[Twitter Word2vec model](https://www.fredericgodin.com/software/) by [Frederic Godin](https://twitter.com/frederic_godin)
+[Twitter Word2vec model](https://www.fredericgodin.com/software/) by [Frederic Godin](https://twitter.com/frederic_godin).
+
 This zip contains a word2vec model trained on Twitter data as described in:
 
 Godin, F., Vandersmissen, B., De Neve, W., & Van de Walle, R. (2015).
@@ -39,7 +40,6 @@ The vocabulary size is: 3039345
 ## Running with REPL (Interactive Shell)
 ```
 python
->>> import sys
 >>> execfile('repl.py')
 Loading the model, this can take some time...
 The vocabulary size is: 3039345
