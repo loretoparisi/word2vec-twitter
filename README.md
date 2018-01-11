@@ -73,3 +73,15 @@ If you want to retrieve the distance as well you can add the 2nd dimension in th
 >>> words
 [(u'health-care', 0.7003277540206909), (u'#healthcare', 0.6571943759918213), (u'heathcare', 0.6552523374557495), (u'welfare', 0.621768593788147), (u'medicaid', 0.6213265657424927), (u'higher-ed', 0.6198979616165161), (u'health', 0.6175448894500732), (u'#healthinsurance', 0.6174722909927368), (u'#HIX', 0.6140642166137695), (u'ACA', 0.6094388961791992)]
 ```
+
+so that you can evaluate the rule `Term 'X' is to term 'Y' as Term 'W' is to term 'Z` like
+
+```
+>>> similar=model.most_similar(positive=['boy', 'sister'], negative=['brother'], topn=1)
+>>> words=list(((w[0],w[1]) for w in similar))
+>>> words
+[(u'girl', 0.6565942764282227)]
+```
+
+For more information please see [Word2Vec](https://github.com/loretoparisi/word2vec)
+```
