@@ -22,6 +22,7 @@ The only difference is that it does not use a strict encoding to read the model 
 
 ## How to install
 ```
+pip install virtualenv
 virtualenv .env
 . .env/bin/activate
 pip install -r requirements.txt 
