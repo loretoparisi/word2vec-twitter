@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ## Download the Word2vec model
-You can download the Word2Vec 400M Twitter model from [here](https://drive.google.com/file/d/10B7cvx3xN7Ef_FxwIO8sigd1J1Ibe6Lu/view?usp=sharing)
+You can download the Word2Vec 400M Twitter model from [here](https://mega.nz/file/h0VCxDQJ#RD11bJvp6NbEfFLGKe0H7ZGDgppz7-95LDNpep5vP2s)
 
 ## How to run
 ```
